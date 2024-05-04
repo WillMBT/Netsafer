@@ -103,10 +103,23 @@ function onClick(event) {
   let intersects = raycaster.intersectObjects(scene.children);
   if (intersects.length > 0 ) {
     
-    window.location.href = 'https://ole.saintkentigern.com/';
+    window.location.href = 'https://willmbt.github.io/Netsafer/page2.html';
   }
 
 }
+
+
+window.addEventListener( 'resize', onWindowResize, false );
+
+function onWindowResize(){
+
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+
+    renderer.setSize( window.innerWidth, window.innerHeight );
+
+}
+
 
 
 

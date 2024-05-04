@@ -49,7 +49,8 @@
     </a>
 
 
-<ul class="nav justify-content-end" >
+    
+<ul class="nav justify-content-end" id="navie">
 
   
 
@@ -67,12 +68,47 @@
   </li>
   
 </ul>
-  </div>
+  
+</div>
 
-    <a href="reachout.html"><button class="btn btn-3" type="button" ><b>Reach Out</b></button></a> 
+    <a href="reachout.html"><button class="btn btn-3" id="navie" type="button" ><b>Reach Out</b></button></a> 
     
+    <div class="hamburger">
+      
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <a href="index.html"><li>About</li></a>
+          <a href="page2.html"><li>Bullying</li></a>
+          <a href="page3.html"><li>Safety</li></a>
+          <a href="page4.html"><li>Scams</li></a>
+          <a href="reachout.html" target="_blank"><li>Reach Out</li></a>
+        </ul>
+      </div>
+  </div>
   
 </nav>
+
+
 
 
 
