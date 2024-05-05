@@ -18,45 +18,83 @@
   <div class="parallax">
   <div class="container-fluid" id="hero">
     <nav class="navbar navbar-expand-lg " id="heading">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="netsafe-removebg-preview.png" width="200" alt="netsafe logo">
-          </a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="netsafe-removebg-preview.png" width="200" alt="netsafe logo">
+        </a>
+    
+    
+        
+    <ul class="nav justify-content-end" id="navie">
+    
       
-  
-
-  <ul class="nav justify-content-end" >
-
     
-
+      <li class="nav-item">
+        <a class="nav-link text-white" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="page2.html">Bullying</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="page3.html">Safety</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="page4.html">Scams</a>
+      </li>
+      
+    </ul>
+      
+    </div>
     
-  <li class="nav-item">
-    <a class="nav-link text-white inactive" href="index.html">About</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white inactive" href="page2.html">Bullying</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="page3.html">Safety</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white inactive" href="page4.html">Scams</a>
-  </li>
-  
-</ul>
-  </div>
-
-  <button class="btn btn-3" id="navie" onclick="location.href='reachout.html'" type="button">Reach Out</button>
+    <button class="btn btn-3" id="navie" onclick="location.href='reachout.html'" type="button">Reach Out</button>
+        
+        <div class="hamburger">
+          
+          <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+              <a href="index.html"><li>About</li></a>
+              <a href="page2.html"><li>Bullying</li></a>
+              <a href="page3.html"><li>Safety</li></a>
+              <a href="page4.html"><li>Scams</li></a>
+              <a href="reachout.html" target="_blank"><li>Reach Out</li></a>
+            </ul>
+          </div>
+      </div>
+      
     </nav>
+    
+    
+    
+    
   
     <div class="container-fluid" id="whiteback">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item"  id="hookvid" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+        <iframe title="Information Video" class="embed-responsive-item"  id="hookvid" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
       </div>
 
     </div>
 
-    <div class="container-fluid" id="tip1">
+    <div class="container-fluid" role="main" id="tip1">
       <h1><b>Staying Safe Online</b></h1>
       <div class="desc1">Cyber safety involves protecting yourself from potential risks online. An understanding of the harms of the internet means you're less likely to jeopardise your own personal information or well-being. Adopting internet/cyber safety measures means you can enjoy the internet without putting yourself at risk.
 
