@@ -8144,7 +8144,7 @@ body {
 #mail{
   width: 10vw;
   height: auto;
-  position: relative;
+  position: absolute;
   left: 30vw;
   top: 21vh;
 }
@@ -8152,22 +8152,22 @@ body {
 #phone{
   width: 8vw;
   height: auto;
-  position: relative;
+  position: absolute;
   left: 60vw;
-  
+  top: 22.5vh;
 }
 
 .descphone{
-  position: relative;
-  left: 15.5vw;
-  
+  position: absolute;
+  left: 59vw;
+  top: 38vh;
   text-align: center;
 }
 
 .descemail{
-  position: relative;
+  position: absolute;
   left: 31vw;
-  top: 18vh;
+  top: 38vh;
 }
 
 @keyframes moveLeft {
